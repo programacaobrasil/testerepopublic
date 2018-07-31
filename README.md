@@ -1,5 +1,3 @@
-# testerepopublic
-
 # Url para validar repositório
 https://jitpack.io/
 
