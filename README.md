@@ -14,19 +14,20 @@ buildscript {
   dependencies {
     classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1' // Add this line
  
-# App Gradle
+## App Gradle
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'  
 group='com.github.YourUsername'
  
- # Executar
+ ## Executar
  gradlew install
  
- # Dá commit no arquivo
+ ## Dá commit no arquivo
  gradlew
 
 # Para importar
-# Project Gradle
+
+## Project Gradle
 allprojects {
   repositories {
     ...
@@ -34,7 +35,7 @@ allprojects {
   }
 }
   
-# App Gradle:
+## App Gradle:
 dependencies {
         implementation 'com.github.programacaobrasil:testerepopublic:1.2'
 }
