@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
@@ -9,7 +9,7 @@ group='com.github.programacaobrasil'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.programacaobrasil.testerespositoriopublico"
+        //applicationId "com.programacaobrasil.testerespositoriopublico"
         minSdkVersion 14
         targetSdkVersion 27
         versionCode 1
